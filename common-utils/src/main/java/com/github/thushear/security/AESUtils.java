@@ -137,11 +137,16 @@ public class AESUtils {
 //        System.out.println(decode.length());
 //        String source = decrypt(decode,key);
 //        System.out.println("source = " + source);
-
-        String encrypt = encrypt("1234567890");
-        System.out.println("encrypt = " + encrypt);
-        String decrypt = decrypt(encrypt);
-        System.out.println("decrypt = " + decrypt);
+        int count = 100000;
+        long start = System.nanoTime();
+        for (int i = 0; i < count; i++) {
+            String encrypt = encrypt("1234567890");
+            System.out.println("encrypt = " + encrypt);
+            String decrypt = decrypt(encrypt);
+            System.out.println("decrypt = " + decrypt);
+        }
+        long end = System.nanoTime();
+        System.out.println("cost time : " + (end - start)/count + " ns");
 
     }
 }
