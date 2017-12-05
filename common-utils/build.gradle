@@ -22,6 +22,8 @@ group = 'com.jd'
 version = "1.0"
 description = ''
 
+
+
 repositories {
 	mavenLocal()
 	jcenter()
@@ -98,4 +100,10 @@ task emailMe(dependsOn: compileJava) << {
 	if(tasks.compileJava.didWork){
 		println 'Send Email '
 	}
+}
+
+task upper << {
+	String str = "hello gradle";
+	println(str)
+	println(str.toUpperCase())
 }
