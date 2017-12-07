@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/common-utils.iml" filepath="$PROJECT_DIR$/.idea/common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-utils_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common-utils_main.iml" group="common-utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-utils_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common-utils_test.iml" group="common-utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-utils~1.iml" filepath="$PROJECT_DIR$/.idea/modules/common-utils~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-app.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-app_main.iml" group="gradle-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-app_test.iml" group="gradle-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-man.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-man.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-man_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-man_main.iml" group="gradle-man" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-man_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-man_test.iml" group="gradle-man" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-web.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-web_main.iml" group="gradle-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-web_test.iml" group="gradle-web" />
+    </modules>
+  </component>
+</project>

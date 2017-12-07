@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : gradle-web.war">
+    <output-path>$PROJECT_DIR$/gradle-web/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/gradle-web" />
+    </properties>
+    <root id="archive" name="gradle-web.war">
+      <element id="artifact" artifact-name="Gradle : gradle-web.war (exploded)" />
+    </root>
+  </artifact>
+</component>
